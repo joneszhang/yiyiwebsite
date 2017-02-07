@@ -2012,14 +2012,14 @@ table > thead > tr > th, table > thead > tr > td, table > tbody > tr > th, table
 
 
 #portfolio.info-box .portfolio-filter a.active:hover {
-  background-color: #666;
-  border: 2px solid #666;
+  background-color: #bc1a28;
+  border: 2px solid #bc1a28;
   color: white;
 }
 
 #portfolio.info-box .portfolio-filter a:hover ,#portfolio.info-box .portfolio-filter a.active{
-  background-color: #666;
-  border: 2px solid #666;
+  background-color: #bc1a28;
+  border: 2px solid #bc1a28;
   color: white;
 }
 #portfolio.info-box .project-details {
