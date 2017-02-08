@@ -85,7 +85,7 @@
         <div class="row">
             <div class="col-sm-6 about-img"><p></p></div>
             <div class="col-sm-6 col-sm-offset-6 about-description">
-                <h4>世界上最屌的设计师</h4>
+                <h4>一直在路上的设计师</h4>
                 <p>所有技能点满，秒杀全服，不服来战</p>
 
                 <h4 class="space-top">SKILLS</h4>
@@ -129,25 +129,19 @@
 
             <!-- fact -->
             <div class="col-sm-4 text-center">
+                
+            </div>
+            <!-- / fact -->
+            <!-- fact -->
+            <div class="col-sm-4 text-center">
                 <i class="fact-icon lnr lnr-users"></i>
-                <h3 class="timer" id="clients" data-to="3745" data-speed="1500">455</h3>
-                <h5 class="fact-title">设计师的日子</h5>
+                <h3 class="timer" id="clients" data-to="1000" data-speed="1500"></h3>
+                <h5 class="fact-title">设计的日子</h5>
             </div>
             <!-- / fact -->
 
             <!-- fact -->
             <div class="col-sm-4 text-center">
-                <i class="fact-icon lnr lnr-briefcase"></i>
-                <h3 class="timer" id="projects" data-to="5402" data-speed="2000">5402</h3>
-                <h5 class="fact-title">完成作品</h5>
-            </div>
-            <!-- / fact -->
-
-            <!-- fact -->
-            <div class="col-sm-4 text-center">
-                <i class="fact-icon lnr lnr-coffee-cup"></i>
-                <h3 class="timer" id="coffee" data-to="675" data-speed="2500">675</h3>
-                <h5 class="fact-title">星爸爸</h5>
             </div>
             <!-- / fact -->
         </div><!-- / row -->
@@ -163,6 +157,14 @@
 <script src="js/jquery.easing.min.js"></script>
 
 <!-- facts counter -->
+<script type="text/javascript">
+    var dts = new Date(2015, 7, 1, 9, 0);
+    var today = new Date();
+    var dtt = new Date(today.getFullYear(), today.getMonth()+1, today.getDate(), 9, 0);
+    var diff = (dtt - dts) / 3600000 / 24;
+    document.getElementById("clients").setAttribute("data-to", diff.toString());
+</script>
+
 <script src="js/jquery.countTo.js"></script>
  <script type="text/javascript">
       $('.timer').countTo({
