@@ -3936,5 +3936,12 @@ body.demo {
   }
 }
 
+div.video-ground{
+  width: 100%;
+  height: 600px;
+  background-color: #000;
+  opacity: 0.8;
+}
+
 /* End Min Widths */
 /* / End Media Screens */
