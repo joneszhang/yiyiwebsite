@@ -3937,7 +3937,7 @@ body.demo {
 }
 
 div.video-ground{
-  align: center;
+  align: left;
   width: 100%;
   height: 700px;
   background-color: #000;
@@ -3945,23 +3945,27 @@ div.video-ground{
   padding-top: 80px;
 }
 
-div.tuce-item{
-  align: center;
+div.tuce{
+  background-color: #efefef;
   width: 100%;
-  height: 300px;
-  background-color: #000;
-  opacity: 0.7;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  height: 280px;
+  margin-bottom:20px;
 }
 
-.tuc-tiem image{
-  align: center;
-  width: 100%;
-  height: 700px;
-  background-color: #000;
-  opacity: 0.8;
-  padding-top: 80px;
+figure.left {
+    width: 47%;
+    float: left;
+    text-align: center;
+    margin-left:2%;
+    margin-top:30px;
+}
+
+figure.right {
+    width: 47%;
+    float: right;
+    text-align: center;
+    margin-right:2%;
+    margin-top:30px;
 }
 /* End Min Widths */
 /* / End Media Screens */
