@@ -4009,19 +4009,23 @@ figure.wuliao {
   width: 100%;
   height: 0;
   padding-bottom: 77.2%;
-  margin-bottom:4%;
+  margin-bottom:0;
 }
 
 div.tuce-single{
   background-color: #efefef;
   width: 100%;
   height: 0;
-  padding-bottom: 39.5%;
-  margin-bottom:4%;
+  padding-bottom: 47.5%;
+  margin-bottom:20%;
 }
 
+div.tuce-mid{
+  padding-bottom: 75.2%;
+}
 div.tuce-end{
-  margin-bottom:15%;
+  margin-bottom:20%;
+  padding-bottom: 85.2%;
 }
 
 figure.left {
@@ -4033,5 +4037,41 @@ figure.left {
 }
 
 }
+
+div.gifs{
+  background-color: #efefef;
+  width: 100%;
+  height: 0;
+  padding-bottom: 26.5%;
+  margin-bottom:2%;
+}
+
+figure.gifs {
+    width: 22.5%;
+    float: left;
+    margin-top: 2%;
+    text-align: center;
+    margin-left:2%;
+}
+
+@media screen and (max-width: 768px) {
+  div.gifs{
+  background-color: #efefef;
+  width: 100%;
+  height: 0;
+  padding-bottom: 376%;
+  margin-bottom: 0;
+}
+
+figure.gifs {
+    width: 88%;
+    float: left;
+    margin-top: 6%;
+    text-align: center;
+    margin-left:6%;
+}
+
+}
+
 /* End Min Widths */
 /* / End Media Screens */
